@@ -1,0 +1,175 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.nunito-font {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+    color: #2f0d3a;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    color: #4682b4;
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    font-family: "Nunito", sans-serif;
+    color: black;
+    font-size: large;
+}
+
+ul {
+    border: 2px solid #8fd4ff;
+    background-color: #d0f0ff;
+    border-radius: 12px;
+    padding: 10px 30px;
+    font-family: "Nunito", sans-serif;
+}
+
+ol {
+    border: 2px solid #a3d8f4;
+    background-color: #e3fbff;
+    border-radius: 12px;
+    padding: 10px 30px;
+    font-family: "Nunito", sans-serif;
+}
+
+#task1,
+#task2,
+#task3 {
+    background-color: #cceead;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+#task1 {
+    background-color: #cceead;
+}
+
+#task2 {
+    background-color: #fee2d5;
+}
+
+#task3 {
+    background-color: #fec2d6;
+}
+
+strong {
+    color: #4682b4;
+}
+
+em {
+    color: #4682b4;
+}
+
+#tasks-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.task-column {
+    flex: 1;
+    min-width: 250px;
+}
+
+/* References: w3 schools*/
+@media (max-width: 768px) {
+    #tasks-container {
+        flex-direction: column;
+    }
+
+    .task-column {
+        min-width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .task-column {
+        flex: 1 1 45%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .task-column {
+        flex: 1;
+    }
+}
