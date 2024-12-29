@@ -1,2 +1,44 @@
-# Responsive-and-Accessible-CSS-Layout
-Experimenting with the best way to implement accessibility and responsiveness within web pages, such that it is compatible with screen readers and recieves a 100% success rate through WAVE accessibility tests. 
+# 🌐 **Responsive and Accessible CSS Layout**
+
+## 📝 **Project Description**
+
+This small project focuses on designing web pages that are both **responsive** and **accessible**, ensuring compatibility with screen readers and achieving a 100% success rate in **WAVE accessibility tests**. The goal is to create layouts that adapt seamlessly to different devices while maintaining usability for all users, including those with disabilities.
+
+<br> 
+
+---
+
+## 🌟 **Features**
+
+- **Responsiveness**: Implement flexible layouts that provide a seamless experience across all devices.  
+- **Accessibility**: Ensure compatibility with screen readers and adhere to web accessibility guidelines (WCAG).  
+- **Validation**: Achieve 100% success in WAVE accessibility tests.  
+
+<br>
+
+---
+
+## 🚀 **Live Demo**
+
+Explore the responsive and accessible design here:  
+👉 [Responsive and Accessible CSS Layout](https://minko82.github.io/Responsive-and-Accessible-CSS-Layout/)
+
+<br>
+
+---
+
+## 💻 **Tools and Technologies**
+
+- **HTML**: For semantic structuring of web content.  
+- **CSS**: For styling and ensuring layout responsiveness.  
+- **WAVE Tool**: To validate accessibility compliance.  
+
+<br> 
+
+---
+
+## 📖 **Why Accessibility and Responsiveness Matter**
+
+Responsive and accessible design ensures that web content is inclusive and functional for all users, regardless of their abilities or devices. This project demonstrates best practices for combining accessibility with adaptability to improve the overall user experience.
+
+---
