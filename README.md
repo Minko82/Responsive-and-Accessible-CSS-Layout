@@ -2,7 +2,7 @@
 
 ## 📝 **Project Description**
 
-This small project focuses on designing web pages that are both **responsive** and **accessible**, ensuring compatibility with screen readers and achieving a 100% success rate in **WAVE accessibility tests**. The goal is to create layouts that adapt seamlessly to different devices while maintaining usability for all users, including those with disabilities.
+This project designs responsive and accessible web pages, ensuring screen reader compatibility and 100% WAVE accessibility compliance.
 
 <br> 
 
